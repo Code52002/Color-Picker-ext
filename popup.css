@@ -1,0 +1,35 @@
+body{
+    /* margin: 0; */
+    background-color: azure;
+}
+
+.wrapper{
+    width: 250px;
+    text-align: center;
+}
+
+.changeColourBtn{
+width: 150px;
+outline: none;
+border: none;
+border-radius: 2px;
+padding: 5px;
+background-color: rgb(165, 165, 34);
+cursor: pointer;
+}
+
+.colourGrid{
+display: inline-block;
+width: 20px;
+height: 20px;
+border-radius: 2px;
+margin-right: 5px;
+}
+
+.selectedColour{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    /* margin-right: 5px; */
+
+}
